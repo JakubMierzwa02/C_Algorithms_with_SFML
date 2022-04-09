@@ -5,7 +5,6 @@
 #include <iostream>
 #include <vector>
 #include <ctime>
-#include <algorithm>
 
 int main()
 {
@@ -14,7 +13,7 @@ int main()
 	sf::RenderWindow window(sf::VideoMode(1280, 720), "Bubble sort", sf::Style::Default);
 	window.setFramerateLimit(144);
 
-	int bars = 128;
+	int bars = 64;
 	// Initialize rectangles
 	sf::RectangleShape rect;
 	std::vector<sf::RectangleShape> rects;
